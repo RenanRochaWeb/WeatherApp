@@ -1,0 +1,28 @@
+.content {
+  height: 70vh;
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.image {
+  width: 42vw;
+  margin-right: 3vw;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+}
+
+.content p {
+  margin-bottom: 2vh;
+}
+
+.textHead {
+  font-size: 1.75vw;
+  font-weight: bold;
+}
+
+.textBody {
+  font-size: 1vw;
+  text-align: justify;
+}

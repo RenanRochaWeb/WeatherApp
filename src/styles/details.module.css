@@ -1,0 +1,47 @@
+.type {
+  font-size: 3vh;
+  color: rgb(209, 202, 169);
+  margin-bottom: 2vh;
+}
+
+.districtName {
+  font-size: 8vh;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.content {
+  position: relative;
+  height: 70vh;
+  width: 47vw;
+  top: 15%;
+  left: 10%;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.tableHeader {
+  height: 5vh;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.wrapper p {
+  margin-bottom: 5px;
+}
+
+.wrapper p::first-letter {
+  text-transform: capitalize;
+}

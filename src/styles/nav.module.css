@@ -1,0 +1,42 @@
+.nav {
+  background: linear-gradient(rgb(209, 202, 169), beige, white);
+  height: 30vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.navBar {
+  list-style: none;
+  height: 10vh;
+  width: 70vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+}
+
+.item {
+  padding: 1vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgb(209, 202, 169);
+  border: 1px rgb(177, 177, 122) solid;
+  border-radius: 5px;
+}
+
+#logo {
+  margin-right: auto;
+  font-size: 2vw;
+  font-family: "Times New Roman", serif;
+}
+
+#logo:hover {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}
