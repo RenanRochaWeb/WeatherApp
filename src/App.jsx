@@ -36,8 +36,12 @@ export default function App() {
   if (type) {
     content = (
       <div className="wrapper">
-        <Map updateInfo={updateInfo} updateAwareness={updateAwareness} />
-        <Details info={info} awareness={awareness} type={type} />
+        <div id="mapWrapper">
+          <Map updateInfo={updateInfo} updateAwareness={updateAwareness} />
+        </div>
+        <div id="detailsWrapper">
+          <Details info={info} awareness={awareness} type={type} />
+        </div>
       </div>
     );
   }

@@ -88,13 +88,13 @@ export default function Details({ info, awareness, type }) {
   }
   return (
     <div className={styles.content}>
-      {receivedInfo && (
+      <p className={styles.type}>{type}</p>
+      {(receivedInfo && (
         <div>
-          <p className={styles.type}>{type}</p>
           <p className={styles.districtName}>{receivedInfo.local}</p>
           {content}
         </div>
-      )}
+      )) || <p>{"Escolha um distrito do mapa para visualizar " + type}</p>}
     </div>
   );
 }

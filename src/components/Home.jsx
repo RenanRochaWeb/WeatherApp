@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.content}>
       <img className={styles.image} src={home} alt="homepage" />
-      <section>
+      <section className={styles.section}>
         <p className={styles.textHead}>
           Temperaturas e alertas meteorológicos em todo Portugal Continental
         </p>

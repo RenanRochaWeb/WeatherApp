@@ -70,10 +70,10 @@ export default function Map({ updateInfo, updateAwareness }) {
 
   //Resize logic
   useEffect(() => {
-    function onScreenResize() {
+    const onScreenResize = () => {
       console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
       setMapWidth(window.innerWidth * 0.27);
-    }
+    };
 
     window.addEventListener("resize", onScreenResize);
   });
@@ -104,7 +104,6 @@ export default function Map({ updateInfo, updateAwareness }) {
         map={mapParams}
         responsive
         stayHighlighted
-        toggleHighlighted
         parentWidth={mapWidth}
         onClick={(area) => onMapClick(area)}
         onMouseEnter={(area) => onEnterArea(area)}
